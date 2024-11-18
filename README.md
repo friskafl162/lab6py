@@ -163,14 +163,14 @@ PS C:\Users\user\Documents\Kuliah>
 ```
 
 ## Cara Kerja Program
-1. *Menu Utama* : Program menyediakan menu utama degan pilihan berikut :
+1. **Menu Utama** : Program menyediakan menu utama degan pilihan berikut :
    - Lihat (L) : menampilkan semua data mahasiswa dalam format tabel
    - Tambah (T) : Menambahkan data mahasiswa baru (NIM, nama, nilai tugas, UTS, UAS).
    - Ubah (U) : Mengubah data mahasiswa yang sudah ada berdasarkan NIM.
    - Hapus (H) : Menghapus data mahasiswa berdasarkan NIM.
    - Cari (C) : Mencari Data mahasiswa tertentu berdasarkan NIM.
    - Keluar (K) : mengakhiri Program.
-2. *Penyimpanan Data* : Data disimpan dalam dictionary data_mahasiswa, dengan format :
+2. **Penyimpanan Data** : Data disimpan dalam dictionary data_mahasiswa, dengan format :
 ``` python
 data_mahasiswa = {
     "NIM1": {"nama": "Nama Mahasiswa", "tugas": 80, "uts": 85, "uas": 90, "akhir": 85.5},
@@ -181,8 +181,8 @@ Dimana Akhir dihitung dengan rumus :
    ``` python
    nilai_akhir = (tugas * 0.3) + (uts * 0.35) + (uas * 0.35)
 ```
-3. Proses Utama
-   - *Menampilkan Data* (Lihat): Menampilkan semua data mahasiswa dalam format tabel. jika tidak ada data, tampilkan pean "Tidak ada data"
+3. **Proses Utama**
+   - *Menampilkan Data* (Lihat): Menampilkan semua data mahasiswa dalam format tabel. jika tidak ada data, tampilkan pean **Tidak ada data**
    - *Menambah data* \(Tambah) : Meminta input dari pengguna
        - NIM, nama, nilai tugaa=s, UTS, UAS.
        - Menghitung nilai akhir dan menyimpannya ke dalam dictionary.
