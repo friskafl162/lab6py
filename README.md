@@ -12,6 +12,18 @@ Program input nilai mahasiswa ini merupakan program berbasis teks untuk mengelol
     - menemukan data mahasiswa tertentu berdasarkan NIM.
 
 ## Deskripsi Program
+## Deskripsi Program Input Nilai Mahasiswa
+
+Program ini dirancang untuk mengelola data nilai mahasiswa secara sederhana. Program ini memungkinkan pengguna untuk:
+
+* Menambahkan data mahasiswa baru: Pengguna dapat memasukkan NIM, nama, nilai tugas, UTS, dan UAS. Program akan menghitung nilai akhir secara otomatis berdasarkan bobot yang telah ditentukan.
+* Melihat daftar nilai: Program akan menampilkan semua data mahasiswa yang sudah tersimpan dalam format tabel yang mudah dibaca.
+* Mengubah data mahasiswa: Pengguna dapat mengubah data mahasiswa yang sudah ada berdasarkan NIM.
+* Menghapus data mahasiswa: Pengguna dapat menghapus data mahasiswa yang sudah tidak diperlukan.
+* Mencari data mahasiswa: Pengguna dapat mencari data mahasiswa berdasarkan NIM.
+
+## flowchart Program
+!/(Flowchart)[flowchartlab6.png] 
 
 ## Kode Program
 ``` python
